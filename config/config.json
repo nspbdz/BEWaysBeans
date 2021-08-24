@@ -1,26 +1,24 @@
 {
   "development": {
-    "username": "superuser",
-    "password": "superuser",
-    "database": "waysbeans", 
+    "username": "root",
+    "password": null,
+    "database": "final", 
 
     "host": "127.0.0.1",
-    "dialect": "postgres"
-    
+    "dialect": "mysql"
   },
   "test": {
-    "username": "superuser",
-    "password": "superuser",
+    "username": "root",
+    "password": null,
     "database": "database_test",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
-
   "production": {
-    "username": "avzrmoheqtougg",
-    "password": "f16e5e02544e98fdbfe3980187805536a92f0be3df21c67326c060b48e89cc84",
-    "database": "d7n8ngnfmbj4lv",
-    "host": "ec2-54-167-168-52.compute-1.amazonaws.com",
-    "dialect": "postgres"
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
